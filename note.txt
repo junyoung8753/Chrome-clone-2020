@@ -30,7 +30,7 @@
         - index.js:10:3 은 index.js파일의 10번째줄 3번째 글자란뜻.
 @데이터타입
   #1.8 Data Types on JS
-    *String(문자열, "" )
+    *String(문자열, "", '', ``)
       - 끈 또는 줄 정도로 번역.
       - "준영" 이라고 하면 JS는 글자로 알아듣는다
       -  준영  이라고 하면 숫자 또는 키워드( what do 등등등)로 알아듣고 찾으려 한다.
@@ -41,6 +41,9 @@
              console.log(what);
              출력 >>> error나옴.   
              ""를 사용하지않아 hi가 뭔지 모른다.
+        예3) function sayHello(name,age){
+              return `Hello ${name} you are ${age} years old`;
+             }
     *Boolean
       - True or False 이다.
         예) const wat = false;
@@ -117,6 +120,55 @@
 
 #2 PRACTICE
 #2.0 Your first JS Function
+  *function (함수)
+    - console.log('hi');에서 'hi'는 argument(인자). 함수()안쪽을 가리키는 단어.
+    - 기본작동
+      function sayHello(){
+        console.log('hello');
+      };
+      sayHello()
+      출력>>> hello
+    - 기본작동2
+      function sayHello(a,b,c,d){
+        console.log('hi',a,b,"Im",d,c);
+      };
+      sayHello('nice meet',"too","age",15);
+      출력>>> hi nicemeet too Im 15 age
+#2.1 More Function Fun (10:24)
+  * console.log
+    - console.log는 그냥 출력하는 기능을한다.
+    - console은 built-in (내장)함수이며 그 안에 log 가 들어있다.
+
+  * return
+    - 반환하는 값. 가지고 있다가 호출시 사용한다.
+  *
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
