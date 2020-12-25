@@ -1,16 +1,7 @@
 'use strict';
 /* ------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
+  #3.0 Making a JS Clock part One
+  #3.1 Making a JS Clock part Two
 ----------------------------------------------- */
 
 const clockContainer = document.querySelector('.js-clock'),
@@ -33,15 +24,3 @@ function init() {
 
 init();
 
-/* 
-
-
-const date = new Date()
-
-date
-
-date.getDate()
-
-
-
- */
