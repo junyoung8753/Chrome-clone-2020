@@ -258,6 +258,14 @@
           const hasClass = title.classList.contains(CLICKED_CLASS);
           if(!hasClass){console.log}
           이라면 hasClass 가 아니라면 이란뜻.
+      - ?  : 삼항연산자/mini If.
+            seconds < 10 ? `0${seconds}` : seconds
+
+      - `` : "" 대신 사용하는것. string이라보면됨. (더 편해서 사용)
+                ex) 시간:분:초 (초가 10보다 작으면 0을붙여라.)
+                //`${시} : ${분} : ${초 < 10 인가(?는if) `0${초}` 해라 아니면(:는else) seconds 해라}`
+                clockTitle.innerText = `${hours}:${minutes}:${
+                  seconds < 10 ? `0${seconds}` : seconds}`;
       
     * Form 형태
       - 기본 Form 구조
@@ -441,7 +449,26 @@
                 }
               }
   #3.0 Making a JS Clock part One
+  #3.1 Making a JS Clock part Two
+    * 시계 완성 JS 코드
+      /*----------------------------------------------------------
+      const clockContainer = document.querySelector('.js-clock'),
+      clockTitle = clockContainer.querySelector('h1');
 
+      function getTime() {
+        const date = new Date();
+        const minutes = date.getMinutes();
+        const hours = date.getHours();
+        const seconds = date.getSeconds();
+        clockTitle.innerText = `${hours < 10 ? `0${hours}` : hours}:${
+          minutes < 10 ? `0${minutes}` : minutes
+        }:${seconds < 10 ? `0${seconds}` : seconds}`;
+      }
 
+      function init() {
+        getTime();
+        setInterval(getTime, 1000);
+      }
 
-
+      init();
+      ----------------------------------------------------------*/
