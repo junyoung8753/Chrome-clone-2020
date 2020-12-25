@@ -450,9 +450,9 @@
                   title.classList.add(CLICKED_CLASS);
                 }
               }
+@clock.js 코드
   #3.0 Making a JS Clock part One
   #3.1 Making a JS Clock part Two
-    * clock.js 코드
       /*----------------------------
       const clockContainer = document.querySelector('.js-clock'),
       clockTitle = clockContainer.querySelector('h1');
@@ -474,10 +474,9 @@
 
       init();
       -----------------------------*/
-
+@greeting.js 코드
   #3.2 Saving the User Name part One
   #3.3 Saving the User Name part Two
-    *greeting.js 코드
       /*----------------------------
       const form = document.querySelector('.js-form'),
         input = form.querySelector('input'),
