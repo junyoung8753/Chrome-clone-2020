@@ -593,3 +593,5 @@
       }
 
       init();
+@bg.js 코드
+  #3.7 Image Background
