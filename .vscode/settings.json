@@ -1,0 +1,28 @@
+{
+  "search-online.add-search-engine": [
+    {
+      "name": "게이버",
+      "url": "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query%SELECTION%"
+    },
+    {
+      "name": "네이버",
+      "url": "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query=%SELECTION%"
+    },
+    {
+      "name": "naVER",
+      "url": "https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query==%SELECTION%"
+    },
+    {
+      "name": "NAVER",
+      "url": "https://www.naver.com"
+    },
+    {
+      "name": "naver",
+      "url": "naver.com"
+    },
+    {
+      "name": "Duck",
+      "url": "https://duckduckgo.com/?q=%SELECTION%"
+    }
+  ]
+}
